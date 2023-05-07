@@ -35,12 +35,15 @@ pip install wheel
 pip install -e /var/lib/jenkins/workspace/purse_backend_$environment .
 python setup.py bdist_wheel 
 
+echo "Building the application"
 application_build_path=/applications/purse_backend_$environment.tar
 python -m venv /applications/purse_backend_$environment/venv
 . "/applications/purse_backend_$environment/venv/bin/activate"
 pip install --upgrade pip
 pip install wheel
 pip install /var/lib/jenkins/workspace/purse_backend_$environment/dist/purse_backend-0.1.0-py3-none-any.whl
+echo "Application packages installed into Venv"
+
 
 # tar -czf  $file_path -C "${jenkins_proj_path}/" .
 
