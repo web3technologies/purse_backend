@@ -48,4 +48,4 @@ echo "Application packages installed into Venv"
 
 echo "Gzipping Application"
 #tar -czf  "$package_name.tar" "/applications/$package_name/"
-tar -czf /tmp/purse_backend_int.tar purse_backend_int/
+tar -czf /tmp/purse_backend_int.tar /applications/purse_backend_int/
