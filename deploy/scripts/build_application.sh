@@ -34,6 +34,8 @@ pip install --upgrade pip
 pip install wheel
 pip install -e /var/lib/jenkins/workspace/purse_backend_$environment .
 python setup.py bdist_wheel 
+deactivate
+echo "*** Purse Module Created***"
 
 echo "Building the application"
 application_build_path=/applications/purse_backend_$environment.tar
