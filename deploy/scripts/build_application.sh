@@ -47,4 +47,4 @@ pip install /var/lib/jenkins/workspace/purse_backend_$environment/dist/purse_bac
 echo "Application packages installed into Venv"
 
 echo "Gzipping Application"
-tar -czf  "$package_name.tar" "/applications/$package_name/" .
+tar -czf  "$package_name.tar" "/applications/$package_name/"
