@@ -23,8 +23,8 @@ mkdir /applications/purse_backend_$environment/
 
 echo "BUILDING FOR ENV $environment"
 
-
-jenkins_proj_path=/var/lib/jenkins/workspace/purse_backend_$environment
+package_name=purse_backend_$environment
+jenkins_proj_path="/var/lib/jenkins/workspace/$package_name"
 JENKINS_VENV_DIR=$jenkins_proj_path/venv 
 
 python -m venv $JENKINS_VENV_DIR
@@ -46,7 +46,5 @@ pip install wheel
 pip install /var/lib/jenkins/workspace/purse_backend_$environment/dist/purse_backend-0.1.0-py3-none-any.whl
 echo "Application packages installed into Venv"
 
-
-# tar -czf  $file_path -C "${jenkins_proj_path}/" .
-
-# echo "Project exists at $file_path"
+echo "Gzipping Application"
+tar -czf  $package_name.tar "applications/$package_name" .
