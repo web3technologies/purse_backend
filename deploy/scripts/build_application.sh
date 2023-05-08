@@ -32,7 +32,7 @@ echo "VENV created"
 . "${JENKINS_VENV_DIR}/bin/activate"
 pip install --upgrade pip
 pip install wheel
-pip install -e $jenkins_proj_path .
+# pip install -e $jenkins_proj_path .
 # python setup.py bdist_wheel 
 # deactivate
 # echo "*** Purse Module Created***"
