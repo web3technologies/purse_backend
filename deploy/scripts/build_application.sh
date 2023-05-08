@@ -24,7 +24,7 @@ mkdir /applications/purse_backend_$environment/
 echo "BUILDING FOR ENV $environment"
 
 
-jenkins_proj_path=/var/lib/jenkins/workspace/purse_backend_$environment/src
+jenkins_proj_path=/var/lib/jenkins/workspace/purse_backend_$environment
 JENKINS_VENV_DIR=$jenkins_proj_path/venv 
 
 python -m venv $JENKINS_VENV_DIR
