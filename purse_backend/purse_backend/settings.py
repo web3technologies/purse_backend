@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'purse_auth'
+    'purse_auth',
+    'purse_async',
+    'purse_finance'
 ]
 
 MIDDLEWARE = [
