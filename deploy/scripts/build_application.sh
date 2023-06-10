@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Creating the Purse Backend Application"
+echo "Creating the purse_backend Application"
 
 while getopts ":e:" opt; do
   case $opt in
@@ -18,34 +18,36 @@ if [ -z "$environment" ]; then
         exit 1
 fi
 
-rm -rf /applications/purse_backend_$environment/
-mkdir /applications/purse_backend_$environment/
+rm -rf /applications/purse_backend/
+mkdir /applications/purse_backend/
 
-echo "BUILDING FOR ENV $environment"
+echo "BUILDING"
 
-package_name=purse_backend_$environment
-jenkins_proj_path="/var/lib/jenkins/workspace/$package_name"
+workspace_name="purse_backend_${environment}"
+jenkins_proj_path="/var/lib/jenkins/workspace/$workspace_name"
 JENKINS_VENV_DIR=$jenkins_proj_path/venv 
 
 python -m venv $JENKINS_VENV_DIR
 echo "VENV created"
 . "${JENKINS_VENV_DIR}/bin/activate"
 pip install --upgrade pip
-pip install -e $jenkins_proj_path .
+pip install $jenkins_proj_path .
 pip install wheel
 python setup.py bdist_wheel 
 deactivate
-echo "*** Purse Module Created***"
+echo "*** Idea Jet Module Created***"
 
 echo "Building the application"
-application_build_path=/applications/purse_backend_$environment.tar
-python -m venv /applications/purse_backend_$environment/venv
-. "/applications/purse_backend_$environment/venv/bin/activate"
+application_build_path=/applications/purse_backend.tar
+python -m venv /applications/purse_backend/venv
+. "/applications/purse_backend/venv/bin/activate"
 pip install --upgrade pip
 pip install wheel
-pip install /var/lib/jenkins/workspace/purse_backend_$environment/dist/purse_backend-0.1.0-py3-none-any.whl
+pip install $jenkins_proj_path/dist/purse_backend-0.1.0-py3-none-any.whl
+cp $jenkins_proj_path/manage.py /applications/purse_backend/
+cp $jenkins_proj_path/purse_backend/purse_backend/wsgi.py /applications/purse_backend/
+cp /var/lib/jenkins/envs/purse_backend_int/.env /applications/purse_backend/
 echo "Application packages installed into Venv"
 
 echo "Gzipping Application"
-#tar -czf  "$package_name.tar" "/applications/$package_name/"
-tar -czf /tmp/purse_backend_int.tar /applications/purse_backend_int/
+tar -czf /tmp/purse_backend.tar /applications/purse_backend/

@@ -1,22 +1,36 @@
+# - name: update repository index (Ubuntu)
+#   tags: always
+#   apt:
+#     update_cache: yes
+#     changed_when: false
+#     when: ansible_distribution == "Ubuntu"
+
 - name: remove current project dir
   file:
-    path: "/applications/purse_backend_{ deploy_env }}/"
+    path: "/applications/purse_backend/"
     state: absent
 
 - name: make project dir
   file:
-    path: "/applications/purse_backend_{ deploy_env }}/"
+    path: "/applications/purse_backend/"
+    state: directory
+
+- name: make static dir
+  file:
+    path: "/applications/purse_backend/static/"
+    state: directory
+
+- name: make static dir
+  file:
+    path: "/applications/purse_backend_media/"
     state: directory
 
 - name: unarchive project tar
   unarchive:
-    src:  "/applications/purse_backend_{ deploy_env }}.tar"
-    dest:  "/applications/purse_backend_{ deploy_env }}/"
+    src:  "/tmp/purse_backend.tar"
+    dest:  "/"
     copy: True
     list_files: True
-
-- name: copy env variables
-  command: cp /etc/purse_backend_{ deploy_env }}/.env "/purse_backend_{ deploy_env }}/.env"
 
 - name: install python3 and pip3
   package:
@@ -36,69 +50,86 @@
 
 - name: create database
   postgresql_db:
-    name:  "purse_backend_{ deploy_env }}"
+    name:  "purse_backend"
   become: true
   become_user: postgres
 
 - name: create postgresql user
   postgresql_user:
     name:  "purse_backend"
-    password: "{{ db_password }}"
+    password: "db_password"
     db:  "purse_backend"
     expires: infinity
   become: true
   become_user: postgres
 
+- name: Make manage.py executable
+  file:
+    path: /applications/purse_backend/manage.py
+    mode: 0777
+
 - name: migrate
   django_manage:
     command: migrate
-    app_path: "/purse_backend_{ deploy_env }}/src/"
-    settings: "pa_backend.settings.{{ deploy_env }}"
-    virtualenv: "applications/purse_backend_{ deploy_env }}/venv"
+    app_path: "/applications/purse_backend/"
+    settings: "purse_backend.settings.{{ deploy_env }}"
+    virtualenv: "/applications/purse_backend/venv"
 
-- name: Install and ensure nginx is at the latest version
-  apt:
-    name: nginx
+- name: collect static
+  django_manage:
+    command: collectstatic
+    app_path: "/applications/purse_backend/"
+    settings: "purse_backend.settings.{{ deploy_env }}"
+    virtualenv: "/applications/purse_backend/venv"
+
+- name: install apache
+  package:
+    name: 
+      - apache2
+      - libapache2-mod-wsgi-py3
     state: latest
-- name: start nginx
-  service: 
-    name: nginx
-    state: started
-    enabled: yes  # if you want to also enable nginx
 
-- name: copy nginx site file file
+- name: copy apache config file
+  tags: apache,apache3,httpd
   copy:
-    src: "{{ nginx_site_filename }}"
-    dest: "/ /etc/nginx/sites-available/{{ nginx_config_filename }}"
+    src: "{{ apache_config_filename }}"
+    dest: "/etc/apache2/sites-available/{{ apache_config_filename }}"
     owner: root
     group: root
     mode: 0644
+  notify: restart_apache
 
 - name: Activate site
-  shell: "ln -s /etc/nginx/sites-available/{{ nginx_config_filename }} /etc/nginx/sites-enabled/"
+  shell: "/usr/sbin/a2ensite {{ apache_config_filename }}"
+  notify: Reload Apache
 
-- name: restart nginx
-  service: name=nginx state=restarted
-
-- name: copy rabbitmq install script
-  copy:
-    src: "/var/lib/jenkins/workspace/purse_backend_{ deploy_env }}/deploy/scripts/installrabbitmq.sh"
-    dest: "/tmp/installrabbitmq.sh"
-    mode: 0777
-
-- name: run install of rabbitmq 
-  shell: sh /tmp/installrabbitmq.sh
-
-- name: remove rabbitmq install script
-  file:
-    path: /tmp/installrabbitmq.sh
-    state: absent
-
-- name: Ensure rabbitmq is started and enabled (if configured).
+- name: start and enable apache service (Ubuntu)
+  tags: apache,httpd
   service:
-    name: rabbitmq-server
+    name: apache2
     state: started
-    enabled: true
+    enabled: yes
+  when: ansible_distribution == "Ubuntu"
+
+# - name: copy rabbitmq install script
+#   copy:
+#     src: "/var/lib/jenkins/workspace/purse_backend_{{ deploy_env }}/deploy/scripts/installrabbitmq.sh"
+#     dest: "/tmp/installrabbitmq.sh"
+#     mode: 0777
+
+# - name: run install of rabbitmq 
+#   shell: sh /tmp/installrabbitmq.sh
+
+# - name: remove rabbitmq install script
+#   file:
+#     path: /tmp/installrabbitmq.sh
+#     state: absent
+
+# - name: Ensure rabbitmq is started and enabled (if configured).
+#   service:
+#     name: rabbitmq-server
+#     state: started
+#     enabled: true
 
 - name: create celery var and opt directories
   file:
@@ -119,14 +150,14 @@
 
 - name: copy celery conf file
   copy:
-    src: "celery/{{ deploy_env }}/celery"
+    src: "celery/celery"
     dest: "/etc/conf.d/celery"
     mode: 0777
   notify: daemon_reload
 
 - name: copy celery service file
   copy:
-    src: "celery/{{ deploy_env }}/celery.service"
+    src: "celery/celery.service"
     dest: "/etc/systemd/system/celery.service"
     mode: 0777
   notify: daemon_reload
@@ -139,7 +170,7 @@
 
 - name: copy celery beat service file
   copy:
-    src: "celery/{{ deploy_env }}/celerybeat.service"
+    src: "celery/celerybeat.service"
     dest: "/etc/systemd/system/celerybeat.service"
     mode: 0777
   notify: daemon_reload
