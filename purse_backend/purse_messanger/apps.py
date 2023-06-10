@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class PaFinanceConfig(AppConfig):
+class PaMessangerConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'purse_finance'
+    name = 'purse_messanger'

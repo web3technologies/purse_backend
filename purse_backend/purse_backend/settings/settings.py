@@ -8,7 +8,7 @@ from .variables import *
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
-AUTH_USER_MODEL = 'pa_auth.User'
+AUTH_USER_MODEL = 'purse_auth.User'
 
 SECRET_KEY = config('DJANGO_SECRET_KEY')
 
@@ -29,13 +29,11 @@ INSTALLED_APPS = [
     "rest_framework",
     'django_extensions',
     'phonenumber_field',
-    
-    #pa_apps
-    'pa_auth',
-    'pa_finance',
-    'pa_messanger',
-    'pa_refs'
-
+    #purse_apps
+    'purse_auth',
+    'purse_catalog',
+    'purse_finance',
+    'purse_messanger',
 ]
 
 MIDDLEWARE = [
@@ -49,10 +47,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'pa_backend.urls'
+ROOT_URLCONF = 'purse_backend.urls'
 
 
-WSGI_APPLICATION = 'pa_backend.wsgi.application'
+WSGI_APPLICATION = 'purse_backend.wsgi.application'
 
 
 DATABASES = {
@@ -145,11 +143,11 @@ LOGGING = {
             'handlers': ['console'],
             'propagate': True,
         },
-        'pa_finance': {
+        'purse_finance': {
             'handlers': ['console'],
             'propagate': True,
         },
-        'pa_dispatcher': {
+        'purse_async': {
             'handlers': ['console'],
             'propagate': True,
         }

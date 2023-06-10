@@ -1,6 +1,6 @@
 from decouple import config
 
-from pa_core.settings import *
+from purse_core.settings import *
 
 
 ###PLAID

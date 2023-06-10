@@ -9,9 +9,9 @@ from django.conf.urls.static import static
 urlpatterns = [
     path("", TemplateView.as_view(template_name="index.html")),
     path('admin/', admin.site.urls),
-    path("auth/", include("pa_auth.urls")),
-    path("dispatcher/", include("pa_dispatcher.urls")),
-    path("finance/", include("pa_finance.urls"))
+    path("auth/", include("purse_auth.urls")),
+    path("async/", include("purse_async.urls")),
+    path("finance/", include("purse_finance.urls"))
 ]
 
 if settings.DEBUG:
