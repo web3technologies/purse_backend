@@ -1,0 +1,1 @@
+recursive-include purse_backend/purse_catalog *.json
