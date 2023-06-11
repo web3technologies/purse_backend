@@ -53,6 +53,7 @@
     name:  "purse_backend"
   become: true
   become_user: postgres
+  when: deploy_env = int
 
 - name: create postgresql user
   postgresql_user:
@@ -62,6 +63,7 @@
     expires: infinity
   become: true
   become_user: postgres
+  when: deploy_env = int
 
 - name: Make manage.py executable
   file:
