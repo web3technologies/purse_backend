@@ -10,7 +10,7 @@ CELERY_BIN="/applications/purse_backend/venv/bin/celery"
 
 # App instance to use
 # comment out this line if you don't use an app
-CELERY_APP="purse_backend_async"
+CELERY_APP="purse_async"
 # or fully qualified:
 #CELERY_APP="proj.tasks:app"
 

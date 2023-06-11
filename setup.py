@@ -2,6 +2,8 @@ from setuptools import setup, find_packages
 
 
 install_requires = [
+    "boto3 ~= 1.26.151",
+    "botocore ~= 1.29.151",
     "celery ~= 5.2.7",
     "coinbase ~= 2.1.0",
     "django ~= 4.2",
