@@ -22,7 +22,7 @@ DATABASES = {
     'default': {
         "NAME": "purse_finance_unittest",
         "ENGINE": "django.db.backends.postgresql",
-        "USER": "personal_assistant",
+        "USER": "purse",
         "HOST": "localhost",
         'PASSWORD': "testing321"
     }
