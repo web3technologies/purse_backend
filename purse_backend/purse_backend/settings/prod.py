@@ -11,10 +11,8 @@ CORS_ORIGIN_WHITELIST = [
 ]
 
 
-STATIC_ROOT = f"/personal_assistant_frontend_prod/src"   #collectstatic places all files found here in prod
-STATICFILES_DIRS = [
-    f"/personal_assistant_frontend_prod/build" 
-]
+MEDIA_ROOT = "/applications/purse_media/"
+STATIC_ROOT = f"/applications/purse_backend/static/"
 
 TEMPLATES[0]['DIRS'] = [STATIC_ROOT]
 
