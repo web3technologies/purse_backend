@@ -35,8 +35,8 @@ CELERY_BROKER_TRANSPORT_OPTIONS = {
     'region': 'us-east-2',
     'is_secure': True,
     'predefined_queues': {
-        'idea_jet_int': {
-            'url': 'https://sqs.us-east-2.amazonaws.com/490305332793/purse_int',
+        'purse_prod': {
+            'url': 'https://sqs.us-east-2.amazonaws.com/490305332793/purse_prod',
         },
     },
     'visibility_timeout': 3600,
