@@ -1,0 +1,25 @@
+[
+    {
+        "model": "purse_finance.plaidaccount",
+        "pk": 1,
+        "fields": {
+            "account_type": "DEPOSITORY",
+            "plaid_account_id": "1234587",
+            "name": "PLAIDTEST",
+            "item_id": 1,
+            "user_id": 1
+        }
+    },
+    {
+        "model": "purse_finance.plaidaccount",
+        "pk": 2,
+        "fields": {
+            "account_type": "DEPOSITORY",
+            "plaid_account_id": "12345678",
+            "name": "PLAIDTEST",
+            "item_id": 1,
+            "user_id": 1
+        }
+    }
+]
+    

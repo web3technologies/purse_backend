@@ -1,0 +1,122 @@
+[
+    {
+        "model": "purse_finance.networth",
+        "pk": 1,
+        "fields": {
+            "networth": "67289",
+            "cash": "33132",
+            "assets": "59867",
+            "debt": "0",
+            "date": "2020-01-01T00:00:00Z",
+            "user": 1
+        }
+    },
+    {
+        "model": "purse_finance.networth",
+        "pk": 2,
+        "fields": {
+            "networth": "40538",
+            "cash": "27201",
+            "assets": "56081",
+            "debt": "0",
+            "date": "2020-02-01T00:00:00Z",
+            "user": 1
+        }
+    },
+    {
+        "model": "purse_finance.networth",
+        "pk": 3,
+        "fields": {
+            "networth": "76678",
+            "cash": "35532",
+            "assets": "62448",
+            "debt": "0",
+            "date": "2020-03-01T00:00:00Z",
+            "user": 1
+        }
+    },
+    {
+        "model": "purse_finance.networth",
+        "pk": 4,
+        "fields": {
+            "networth": "73799",
+            "cash": "30271",
+            "assets": "62416",
+            "debt": "0",
+            "date": "2020-04-01T00:00:00Z",
+            "user": 1
+        }
+    },
+    {
+        "model": "purse_finance.networth",
+        "pk": 5,
+        "fields": {
+            "networth": "114253",
+            "cash": "37411",
+            "assets": "42042",
+            "debt": "0",
+            "date": "2020-05-01T00:00:00Z",
+            "user": 1
+        }
+    },
+    {
+        "model": "purse_finance.networth",
+        "pk": 6,
+        "fields": {
+            "networth": "30197",
+            "cash": "39274",
+            "assets": "31308",
+            "debt": "0",
+            "date": "2020-06-01T00:00:00Z",
+            "user": 1
+        }
+    },
+    {
+        "model": "purse_finance.networth",
+        "pk": 7,
+        "fields": {
+            "networth": "45208",
+            "cash": "42143",
+            "assets": "72352",
+            "debt": "0",
+            "date": "2020-07-01T00:00:00Z",
+            "user": 1
+        }
+    },
+    {
+        "model": "purse_finance.networth",
+        "pk": 8,
+        "fields": {
+            "networth": "92065",
+            "cash": "26966",
+            "assets": "61511",
+            "debt": "0",
+            "date": "2020-08-01T00:00:00Z",
+            "user": 1
+        }
+    },
+    {
+        "model": "purse_finance.networth",
+        "pk": 9,
+        "fields": {
+            "networth": "47012",
+            "cash": "29538",
+            "assets": "72388",
+            "debt": "0",
+            "date": "2020-09-01T00:00:00Z",
+            "user": 1
+        }
+    },
+    {
+        "model": "purse_finance.networth",
+        "pk": 10,
+        "fields": {
+            "networth": "38755",
+            "cash": "44181",
+            "assets": "52558",
+            "debt": "0",
+            "date": "2020-10-01T00:00:00Z",
+            "user": 1
+        }
+    }
+]

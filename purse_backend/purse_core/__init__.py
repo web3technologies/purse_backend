@@ -1,0 +1,1 @@
+from purse_core.base_task import BaseTask

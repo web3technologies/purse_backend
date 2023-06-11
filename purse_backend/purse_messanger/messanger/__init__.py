@@ -1,0 +1,1 @@
+from purse_messanger.messanger.networth_messanger import NetWorthMessanger

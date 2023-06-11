@@ -1,0 +1,1256 @@
+[
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 1,
+        "fields": {
+            "error_type": "ACTIVE",
+            "error_code": "ACTIVE",
+            "documentation_link": null
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 2,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "ACCESS_NOT_GRANTED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#ACCESS_NOT_GRANTED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 3,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "INSTANT_MATCH_FAILED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INSTANT_MATCH_FAILED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 4,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "INSUFFICIENT_CREDENTIALS",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INSUFFICIENT_CREDENTIALS"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 5,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "INVALID_CREDENTIALS",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_CREDENTIALS"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 6,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "INVALID_MFA",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_MFA"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 7,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "INVALID_MFA",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_MFA"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 8,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "INVALID_MFA",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_MFA"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 9,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "INVALID_SEND_METHOD",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_SEND_METHOD"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 10,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "INVALID_UPDATED_USERNAME",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_UPDATED_USERNAME"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 11,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "ITEM_CONCURRENTLY_DELETED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#ITEM_CONCURRENTLY_DELETED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 12,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "ITEM_LOCKED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#ITEM_LOCKED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 13,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "ITEM_LOGIN_REQUIRED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#ITEM_LOGIN_REQUIRED",
+            "is_login_required": true
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 14,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "ITEM_NOT_FOUND",
+            "documentation_link": "https://plaid.com/docs/errors/item/#ITEM_NOT_FOUND"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 15,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "ITEM_NOT_SUPPORTED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#ITEM_NOT_SUPPORTED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 16,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "MFA_NOT_SUPPORTED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#MFA_NOT_SUPPORTED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 17,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "NO_ACCOUNTS",
+            "documentation_link": "https://plaid.com/docs/errors/item/#NO_ACCOUNTS"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 18,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "NO_AUTH_ACCOUNTS",
+            "documentation_link": "https://plaid.com/docs/errors/item/#NO_AUTH_ACCOUNTS"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 19,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "NO_INVESTMENT_ACCOUNTS",
+            "documentation_link": "https://plaid.com/docs/errors/item/#NO_INVESTMENT_ACCOUNTS"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 20,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "NO_INVESTMENT_AUTH_ACCOUNTS",
+            "documentation_link": "https://plaid.com/docs/errors/item/#NO_INVESTMENT_AUTH_ACCOUNTS"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 21,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "NO_LIABILITY_ACCOUNTS",
+            "documentation_link": "https://plaid.com/docs/errors/item/#NO_LIABILITY_ACCOUNTS"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 22,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "PRODUCT_NOT_ENABLED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#PRODUCT_NOT_ENABLED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 23,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "PRODUCT_NOT_READY",
+            "documentation_link": "https://plaid.com/docs/errors/item/#PRODUCT_NOT_READY"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 24,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "PRODUCTS_NOT_SUPPORTED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#PRODUCTS_NOT_SUPPORTED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 25,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "USER_INPUT_TIMEOUT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#USER_INPUT_TIMEOUT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 26,
+        "fields": {
+            "error_type": "Item errors",
+            "error_code": "USER_SETUP_REQUIRED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#USER_SETUP_REQUIRED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 27,
+        "fields": {
+            "error_type": "Institution errors",
+            "error_code": "INSTITUTION_DOWN",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INSTITUTION_DOWN"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 28,
+        "fields": {
+            "error_type": "Institution errors",
+            "error_code": "INSTITUTION_NO_LONGER_SUPPORTED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INSTITUTION_NO_LONGER_SUPPORTED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 29,
+        "fields": {
+            "error_type": "Institution errors",
+            "error_code": "INSTITUTION_NOT_AVAILABLE",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INSTITUTION_NOT_AVAILABLE"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 30,
+        "fields": {
+            "error_type": "Institution errors",
+            "error_code": "INSTITUTION_NOT_ENABLED_IN_ENVIRONMENT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INSTITUTION_NOT_ENABLED_IN_ENVIRONMENT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 31,
+        "fields": {
+            "error_type": "Institution errors",
+            "error_code": "INSTITUTION_NOT_FOUND",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INSTITUTION_NOT_FOUND"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 32,
+        "fields": {
+            "error_type": "Institution errors",
+            "error_code": "INSTITUTION_NOT_RESPONDING",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INSTITUTION_NOT_RESPONDING"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 33,
+        "fields": {
+            "error_type": "Institution errors",
+            "error_code": "INSTITUTION_REGISTRATION_REQUIRED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INSTITUTION_REGISTRATION_REQUIRED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 34,
+        "fields": {
+            "error_type": "Institution errors",
+            "error_code": "UNAUTHORIZED_INSTITUTION",
+            "documentation_link": "https://plaid.com/docs/errors/item/#UNAUTHORIZED_INSTITUTION"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 35,
+        "fields": {
+            "error_type": "API errors",
+            "error_code": "INTERNAL_SERVER_ERROR",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INTERNAL_SERVER_ERROR",
+            "is_login_required": true
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 36,
+        "fields": {
+            "error_type": "API errors",
+            "error_code": "PLANNED_MAINTENANCE",
+            "documentation_link": "https://plaid.com/docs/errors/item/#PLANNED_MAINTENANCE"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 37,
+        "fields": {
+            "error_type": "Assets errors",
+            "error_code": "PRODUCT_NOT_ENABLED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#PRODUCT_NOT_ENABLED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 38,
+        "fields": {
+            "error_type": "Assets errors",
+            "error_code": "DATA_UNAVAILABLE",
+            "documentation_link": "https://plaid.com/docs/errors/item/#DATA_UNAVAILABLE"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 39,
+        "fields": {
+            "error_type": "Assets errors",
+            "error_code": "PRODUCT_NOT_READY",
+            "documentation_link": "https://plaid.com/docs/errors/item/#PRODUCT_NOT_READY"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 40,
+        "fields": {
+            "error_type": "Assets errors",
+            "error_code": "ASSET_REPORT_GENERATION_FAILED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#ASSET_REPORT_GENERATION_FAILED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 41,
+        "fields": {
+            "error_type": "Assets errors",
+            "error_code": "INVALID_PARENT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_PARENT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 42,
+        "fields": {
+            "error_type": "Assets errors",
+            "error_code": "INSIGHTS_NOT_ENABLED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INSIGHTS_NOT_ENABLED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 43,
+        "fields": {
+            "error_type": "Assets errors",
+            "error_code": "INSIGHTS_PREVIOUSLY_NOT_ENABLED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INSIGHTS_PREVIOUSLY_NOT_ENABLED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 44,
+        "fields": {
+            "error_type": "Payment errors",
+            "error_code": "PAYMENT_BLOCKED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#PAYMENT_BLOCKED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 45,
+        "fields": {
+            "error_type": "Payment errors",
+            "error_code": "PAYMENT_CANCELLED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#PAYMENT_CANCELLED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 46,
+        "fields": {
+            "error_type": "Payment errors",
+            "error_code": "PAYMENT_INSUFFICIENT_FUNDS",
+            "documentation_link": "https://plaid.com/docs/errors/item/#PAYMENT_INSUFFICIENT_FUNDS"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 47,
+        "fields": {
+            "error_type": "Payment errors",
+            "error_code": "PAYMENT_INVALID_RECIPIENT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#PAYMENT_INVALID_RECIPIENT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 48,
+        "fields": {
+            "error_type": "Payment errors",
+            "error_code": "PAYMENT_INVALID_REFERENCE",
+            "documentation_link": "https://plaid.com/docs/errors/item/#PAYMENT_INVALID_REFERENCE"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 49,
+        "fields": {
+            "error_type": "Payment errors",
+            "error_code": "PAYMENT_INVALID_SCHEDULE",
+            "documentation_link": "https://plaid.com/docs/errors/item/#PAYMENT_INVALID_SCHEDULE"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 50,
+        "fields": {
+            "error_type": "Payment errors",
+            "error_code": "PAYMENT_REJECTED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#PAYMENT_REJECTED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 51,
+        "fields": {
+            "error_type": "Payment errors",
+            "error_code": "PAYMENT_SCHEME_NOT_SUPPORTED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#PAYMENT_SCHEME_NOT_SUPPORTED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 52,
+        "fields": {
+            "error_type": "Transactions errors",
+            "error_code": "TRANSACTIONS_SYNC_MUTATION_DURING_PAGINATION",
+            "documentation_link": "https://plaid.com/docs/errors/item/#TRANSACTIONS_SYNC_MUTATION_DURING_PAGINATION"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 53,
+        "fields": {
+            "error_type": "Transfer errors",
+            "error_code": "TRANSFER_LIMIT_EXCEEDED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#TRANSFER_LIMIT_EXCEEDED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 54,
+        "fields": {
+            "error_type": "Transfer errors",
+            "error_code": "TRANSFER_INVALID_ORIGINATION_ACCOUNT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#TRANSFER_INVALID_ORIGINATION_ACCOUNT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 55,
+        "fields": {
+            "error_type": "Transfer errors",
+            "error_code": "TRANSFER_MISSING_ORIGINATION_ACCOUNT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#TRANSFER_MISSING_ORIGINATION_ACCOUNT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 56,
+        "fields": {
+            "error_type": "Transfer errors",
+            "error_code": "TRANSFER_ACCOUNT_BLOCKED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#TRANSFER_ACCOUNT_BLOCKED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 57,
+        "fields": {
+            "error_type": "Transfer errors",
+            "error_code": "TRANSFER_NOT_CANCELLABLE",
+            "documentation_link": "https://plaid.com/docs/errors/item/#TRANSFER_NOT_CANCELLABLE"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 58,
+        "fields": {
+            "error_type": "Transfer errors",
+            "error_code": "TRANSFER_UNSUPPORTED_ACCOUNT_TYPE",
+            "documentation_link": "https://plaid.com/docs/errors/item/#TRANSFER_UNSUPPORTED_ACCOUNT_TYPE"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 59,
+        "fields": {
+            "error_type": "Transfer errors",
+            "error_code": "TRANSFER_FORBIDDEN_ACH_CLASS",
+            "documentation_link": "https://plaid.com/docs/errors/item/#TRANSFER_FORBIDDEN_ACH_CLASS"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 60,
+        "fields": {
+            "error_type": "Transfer errors",
+            "error_code": "TRANSFER_UI_UNAUTHORIZED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#TRANSFER_UI_UNAUTHORIZED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 61,
+        "fields": {
+            "error_type": "Income errors",
+            "error_code": "INCOME_VERIFICATION_DOCUMENT_NOT_FOUND",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INCOME_VERIFICATION_DOCUMENT_NOT_FOUND"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 62,
+        "fields": {
+            "error_type": "Income errors",
+            "error_code": "INCOME_VERIFICATION_FAILED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INCOME_VERIFICATION_FAILED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 63,
+        "fields": {
+            "error_type": "Income errors",
+            "error_code": "INCOME_VERIFICATION_NOT_FOUND",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INCOME_VERIFICATION_NOT_FOUND"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 64,
+        "fields": {
+            "error_type": "Income errors",
+            "error_code": "INCOME_VERIFICATION_UPLOAD_ERROR",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INCOME_VERIFICATION_UPLOAD_ERROR"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 65,
+        "fields": {
+            "error_type": "Income errors",
+            "error_code": "PRODUCT_NOT_ENABLED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#PRODUCT_NOT_ENABLED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 66,
+        "fields": {
+            "error_type": "Income errors",
+            "error_code": "PRODUCT_NOT_READY",
+            "documentation_link": "https://plaid.com/docs/errors/item/#PRODUCT_NOT_READY"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 67,
+        "fields": {
+            "error_type": "Income errors",
+            "error_code": "VERIFICATION_STATUS_PENDING_APPROVAL",
+            "documentation_link": "https://plaid.com/docs/errors/item/#VERIFICATION_STATUS_PENDING_APPROVAL"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 68,
+        "fields": {
+            "error_type": "Income errors",
+            "error_code": "EMPLOYMENT_NOT_FOUND",
+            "documentation_link": "https://plaid.com/docs/errors/item/#EMPLOYMENT_NOT_FOUND"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 69,
+        "fields": {
+            "error_type": "Sandbox errors",
+            "error_code": "SANDBOX_PRODUCT_NOT_ENABLED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#SANDBOX_PRODUCT_NOT_ENABLED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 70,
+        "fields": {
+            "error_type": "Sandbox errors",
+            "error_code": "SANDBOX_WEBHOOK_INVALID",
+            "documentation_link": "https://plaid.com/docs/errors/item/#SANDBOX_WEBHOOK_INVALID"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 71,
+        "fields": {
+            "error_type": "Sandbox errors",
+            "error_code": "SANDBOX_TRANSFER_EVENT_TRANSITION_INVALID",
+            "documentation_link": "https://plaid.com/docs/errors/item/#SANDBOX_TRANSFER_EVENT_TRANSITION_INVALID"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 72,
+        "fields": {
+            "error_type": "Sandbox errors",
+            "error_code": "SANDBOX_ACCOUNT_SELECT_V2_NOT_ENABLED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#SANDBOX_ACCOUNT_SELECT_V2_NOT_ENABLED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 73,
+        "fields": {
+            "error_type": "Invalid Request errors",
+            "error_code": "MISSING_FIELDS",
+            "documentation_link": "https://plaid.com/docs/errors/item/#MISSING_FIELDS"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 74,
+        "fields": {
+            "error_type": "Invalid Request errors",
+            "error_code": "UNKNOWN_FIELDS",
+            "documentation_link": "https://plaid.com/docs/errors/item/#UNKNOWN_FIELDS"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 75,
+        "fields": {
+            "error_type": "Invalid Request errors",
+            "error_code": "INVALID_FIELD",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_FIELD"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 76,
+        "fields": {
+            "error_type": "Invalid Request errors",
+            "error_code": "INVALID_CONFIGURATION",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_CONFIGURATION"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 77,
+        "fields": {
+            "error_type": "Invalid Request errors",
+            "error_code": "INCOMPATIBLE_API_VERSION",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INCOMPATIBLE_API_VERSION"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 78,
+        "fields": {
+            "error_type": "Invalid Request errors",
+            "error_code": "INVALID_BODY",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_BODY"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 79,
+        "fields": {
+            "error_type": "Invalid Request errors",
+            "error_code": "INVALID_HEADERS",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_HEADERS"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 80,
+        "fields": {
+            "error_type": "Invalid Request errors",
+            "error_code": "NOT_FOUND",
+            "documentation_link": "https://plaid.com/docs/errors/item/#NOT_FOUND"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 81,
+        "fields": {
+            "error_type": "Invalid Request errors",
+            "error_code": "NO_LONGER_AVAILABLE",
+            "documentation_link": "https://plaid.com/docs/errors/item/#NO_LONGER_AVAILABLE"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 82,
+        "fields": {
+            "error_type": "Invalid Request errors",
+            "error_code": "SANDBOX_ONLY",
+            "documentation_link": "https://plaid.com/docs/errors/item/#SANDBOX_ONLY"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 83,
+        "fields": {
+            "error_type": "Invalid Request errors",
+            "error_code": "INVALID_ACCOUNT_NUMBER",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_ACCOUNT_NUMBER"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 84,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "ADDITIONAL_CONSENT_REQUIRED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#ADDITIONAL_CONSENT_REQUIRED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 85,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "DIRECT_INTEGRATION_NOT_ENABLED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#DIRECT_INTEGRATION_NOT_ENABLED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 86,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "INCORRECT_DEPOSIT_VERIFICATION",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INCORRECT_DEPOSIT_VERIFICATION"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 87,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "INCORRECT_DEPOSIT_AMOUNTS",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INCORRECT_DEPOSIT_AMOUNTS"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 88,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "INVALID_ACCESS_TOKEN",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_ACCESS_TOKEN"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 89,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "INVALID_ACCOUNT_ID",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_ACCOUNT_ID",
+            "is_login_required": true
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 90,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "INVALID_API_KEYS",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_API_KEYS"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 91,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "INVALID_AUDIT_COPY_TOKEN",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_AUDIT_COPY_TOKEN"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 92,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "INVALID_INSTITUTION",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_INSTITUTION"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 93,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "INVALID_LINK_CUSTOMIZATION",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_LINK_CUSTOMIZATION"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 94,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "INVALID_PROCESSOR_TOKEN",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_PROCESSOR_TOKEN"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 95,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "INVALID_PRODUCT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_PRODUCT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 96,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "INVALID_PRODUCTS",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_PRODUCTS"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 97,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "INVALID_PUBLIC_TOKEN",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_PUBLIC_TOKEN"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 98,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "INVALID_LINK_TOKEN",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_LINK_TOKEN"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 99,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "INVALID_STRIPE_ACCOUNT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_STRIPE_ACCOUNT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 100,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "INVALID_USER_TOKEN",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_USER_TOKEN"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 101,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "INVALID_WEBHOOK_VERIFICATION_KEY_ID",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_WEBHOOK_VERIFICATION_KEY_ID"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 102,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "PRODUCT_UNAVAILABLE",
+            "documentation_link": "https://plaid.com/docs/errors/item/#PRODUCT_UNAVAILABLE"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 103,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "UNAUTHORIZED_ENVIRONMENT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#UNAUTHORIZED_ENVIRONMENT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 104,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "UNAUTHORIZED_ROUTE_ACCESS",
+            "documentation_link": "https://plaid.com/docs/errors/item/#UNAUTHORIZED_ROUTE_ACCESS"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 105,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "USER_PERMISSION_REVOKED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#USER_PERMISSION_REVOKED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 106,
+        "fields": {
+            "error_type": "Invalid Input errors",
+            "error_code": "TOO_MANY_VERIFICATION_ATTEMPTS",
+            "documentation_link": "https://plaid.com/docs/errors/item/#TOO_MANY_VERIFICATION_ATTEMPTS"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 107,
+        "fields": {
+            "error_type": "Invalid Result errors",
+            "error_code": "PLAID_DIRECT_ITEM_IMPORT_RETURNED_INVALID_MFA",
+            "documentation_link": "https://plaid.com/docs/errors/item/#PLAID_DIRECT_ITEM_IMPORT_RETURNED_INVALID_MFA"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 108,
+        "fields": {
+            "error_type": "Rate Limit Exceeded errors",
+            "error_code": "ACCOUNTS_LIMIT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#ACCOUNTS_LIMIT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 109,
+        "fields": {
+            "error_type": "Rate Limit Exceeded errors",
+            "error_code": "ACCOUNTS_BALANCE_GET_LIMIT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#ACCOUNTS_BALANCE_GET_LIMIT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 110,
+        "fields": {
+            "error_type": "Rate Limit Exceeded errors",
+            "error_code": "ADDITION_LIMIT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#ADDITION_LIMIT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 111,
+        "fields": {
+            "error_type": "Rate Limit Exceeded errors",
+            "error_code": "AUTH_LIMIT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#AUTH_LIMIT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 112,
+        "fields": {
+            "error_type": "Rate Limit Exceeded errors",
+            "error_code": "BALANCE_LIMIT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#BALANCE_LIMIT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 113,
+        "fields": {
+            "error_type": "Rate Limit Exceeded errors",
+            "error_code": "IDENTITY_LIMIT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#IDENTITY_LIMIT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 114,
+        "fields": {
+            "error_type": "Rate Limit Exceeded errors",
+            "error_code": "INSTITUTIONS_GET_LIMIT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INSTITUTIONS_GET_LIMIT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 115,
+        "fields": {
+            "error_type": "Rate Limit Exceeded errors",
+            "error_code": "INSTITUTIONS_GET_BY_ID_LIMIT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INSTITUTIONS_GET_BY_ID_LIMIT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 116,
+        "fields": {
+            "error_type": "Rate Limit Exceeded errors",
+            "error_code": "ITEM_GET_LIMIT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#ITEM_GET_LIMIT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 117,
+        "fields": {
+            "error_type": "Rate Limit Exceeded errors",
+            "error_code": "RATE_LIMIT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#RATE_LIMIT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 118,
+        "fields": {
+            "error_type": "Rate Limit Exceeded errors",
+            "error_code": "TRANSACTIONS_LIMIT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#TRANSACTIONS_LIMIT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 119,
+        "fields": {
+            "error_type": "Link Web errors",
+            "error_code": "institution-poor-health-error",
+            "documentation_link": "https://plaid.com/docs/errors/item/#institution-poor-health-error"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 120,
+        "fields": {
+            "error_type": "Link Web errors",
+            "error_code": "oauth-error",
+            "documentation_link": "https://plaid.com/docs/errors/item/#oauth-error"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 121,
+        "fields": {
+            "error_type": "ReCAPTCHA errors",
+            "error_code": "RECAPTCHA_REQUIRED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#RECAPTCHA_REQUIRED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 122,
+        "fields": {
+            "error_type": "ReCAPTCHA errors",
+            "error_code": "RECAPTCHA_BAD",
+            "documentation_link": "https://plaid.com/docs/errors/item/#RECAPTCHA_BAD"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 123,
+        "fields": {
+            "error_type": "OAuth errors",
+            "error_code": "INCORRECT_OAUTH_NONCE",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INCORRECT_OAUTH_NONCE"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 124,
+        "fields": {
+            "error_type": "OAuth errors",
+            "error_code": "INCORRECT_LINK_TOKEN",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INCORRECT_LINK_TOKEN"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 125,
+        "fields": {
+            "error_type": "OAuth errors",
+            "error_code": "OAUTH_STATE_ID_ALREADY_PROCESSED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#OAUTH_STATE_ID_ALREADY_PROCESSED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 126,
+        "fields": {
+            "error_type": "OAuth errors",
+            "error_code": "OAUTH_STATE_ID_NOT_FOUND",
+            "documentation_link": "https://plaid.com/docs/errors/item/#OAUTH_STATE_ID_NOT_FOUND"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 127,
+        "fields": {
+            "error_type": "Micro-deposits errors",
+            "error_code": "MICRODEPOSITS_UNSUPPORTED_ENVIRONMENT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#MICRODEPOSITS_UNSUPPORTED_ENVIRONMENT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 128,
+        "fields": {
+            "error_type": "Micro-deposits errors",
+            "error_code": "BANK_TRANSFER_ACCOUNT_BLOCKED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#BANK_TRANSFER_ACCOUNT_BLOCKED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 129,
+        "fields": {
+            "error_type": "Partner errors",
+            "error_code": "CUSTOMER_NOT_FOUND",
+            "documentation_link": "https://plaid.com/docs/errors/item/#CUSTOMER_NOT_FOUND"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 130,
+        "fields": {
+            "error_type": "Partner errors",
+            "error_code": "FLOWDOWN_NOT_COMPLETE",
+            "documentation_link": "https://plaid.com/docs/errors/item/#FLOWDOWN_NOT_COMPLETE"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 131,
+        "fields": {
+            "error_type": "Partner errors",
+            "error_code": "QUESTIONNAIRE_NOT_COMPLETE",
+            "documentation_link": "https://plaid.com/docs/errors/item/#QUESTIONNAIRE_NOT_COMPLETE"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 132,
+        "fields": {
+            "error_type": "Partner errors",
+            "error_code": "CUSTOMER_NOT_READY_FOR_ENABLEMENT",
+            "documentation_link": "https://plaid.com/docs/errors/item/#CUSTOMER_NOT_READY_FOR_ENABLEMENT"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 133,
+        "fields": {
+            "error_type": "Partner errors",
+            "error_code": "CUSTOMER_ALREADY_ENABLED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#CUSTOMER_ALREADY_ENABLED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 134,
+        "fields": {
+            "error_type": "Partner errors",
+            "error_code": "CUSTOMER_ALREADY_CREATED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#CUSTOMER_ALREADY_CREATED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 135,
+        "fields": {
+            "error_type": "Partner errors",
+            "error_code": "LOGO_REQUIRED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#LOGO_REQUIRED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 136,
+        "fields": {
+            "error_type": "Partner errors",
+            "error_code": "INVALID_LOGO",
+            "documentation_link": "https://plaid.com/docs/errors/item/#INVALID_LOGO"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 137,
+        "fields": {
+            "error_type": "Partner errors",
+            "error_code": "CONTACT_REQUIRED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#CONTACT_REQUIRED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 138,
+        "fields": {
+            "error_type": "Partner errors",
+            "error_code": "ASSETS_UNDER_MANAGEMENT_REQUIRED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#ASSETS_UNDER_MANAGEMENT_REQUIRED"
+        }
+    },
+    {
+        "model": "purse_refs.plaidapierror",
+        "pk": 139,
+        "fields": {
+            "error_type": "Partner errors",
+            "error_code": "CUSTOMER_REMOVAL_NOT_ALLOWED",
+            "documentation_link": "https://plaid.com/docs/errors/item/#CUSTOMER_REMOVAL_NOT_ALLOWED"
+        }
+    }
+]

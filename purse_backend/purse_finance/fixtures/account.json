@@ -1,0 +1,50 @@
+[
+    {
+        "model": "purse_finance.account",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "account_type": "Investment",
+            "account_subtype": "CRYPTO",
+            "amount": 2.188,
+            "name": "Bitcoin",
+            "ticker": "BTC"
+        }
+    },
+    {
+        "model": "purse_finance.account",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "account_type": "Investment",
+            "account_subtype": "CRYPTO",
+            "amount": 8.4,
+            "name": "Ethereum",
+            "ticker": "ETH"
+        }
+    },
+    {
+        "model": "purse_finance.account",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "account_type": "Investment",
+            "account_subtype": "CRYPTO",
+            "amount": 1200.12,
+            "name": "Solana",
+            "ticker": "SOL"
+        }
+    },
+    {
+        "model": "purse_finance.account",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "account_type": "Investment",
+            "account_subtype": "CRYPTO",
+            "amount": 210.11154,
+            "name": "Link",
+            "ticker": "LINK"
+        }
+    }
+]

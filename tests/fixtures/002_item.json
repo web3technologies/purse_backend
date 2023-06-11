@@ -1,0 +1,30 @@
+[
+{
+    "model": "purse_finance.item",
+    "pk": 1,
+    "fields": {
+        "access_token": "access-sandbox-4904f65f-be7f-4a77-b757-1ff7df5562a5",
+        "date_created": "2022-11-02T01:27:22.285Z",
+        "date_updated": "2022-11-02T01:27:22.285Z",
+        "status": "ACTIVE",
+        "plaid_internal_status": 1,
+        "plaid_item_id": "zQMD3br7XpIn6KkE1l9gFAZ3d35gGotgo7n9B",
+        "institution": "Wells Fargo",
+        "user": 1
+    }
+},
+{
+    "model": "purse_finance.item",
+    "pk": 2,
+    "fields": {
+        "access_token": "access-sandbox-576d0ab9-d4df-42d2-9e84-609341fcc51f",
+        "date_created": "2022-11-02T01:28:05.374Z",
+        "date_updated": "2022-11-02T01:28:05.374Z",
+        "status": "ACTIVE",
+        "plaid_internal_status": 1,
+        "plaid_item_id": "Pzmqk5AZMPhbbv3bWqoJF9ByL8zqzahNZPjNa",
+        "institution": "USAA",
+        "user": 1
+    }
+}
+]
