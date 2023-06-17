@@ -28,7 +28,7 @@ PLAID_API_ENVIRONMENT_CONFIGURATION = configuration = Configuration(
         )
 
 CELERY_BROKER_URL = "sqs://"
-CELERY_TASK_DEFAULT_QUEUE = 'idea_jet_prod'
+CELERY_TASK_DEFAULT_QUEUE = 'purse_prod'
 
 
 CELERY_BROKER_TRANSPORT_OPTIONS = {

@@ -28,13 +28,13 @@ PLAID_API_ENVIRONMENT_CONFIGURATION = configuration = Configuration(
 
 
 CELERY_BROKER_URL = "sqs://"
-CELERY_TASK_DEFAULT_QUEUE = 'idea_jet_int'
+CELERY_TASK_DEFAULT_QUEUE = 'purse_int'
 
 CELERY_BROKER_TRANSPORT_OPTIONS = {
     'region': 'us-east-2',
     'is_secure': True,
     'predefined_queues': {
-        'idea_jet_int': {
+        'purse_int': {
             'url': 'https://sqs.us-east-2.amazonaws.com/490305332793/purse_int',
         },
     },
