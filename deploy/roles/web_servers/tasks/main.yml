@@ -139,7 +139,7 @@
 
 - name: Update Celery Configuration
   template:
-    src: celery/celery.j2
+    src: celery/celery.conf.j2
     dest: "/etc/conf.d/celery"
     mode: 0777
   vars:
