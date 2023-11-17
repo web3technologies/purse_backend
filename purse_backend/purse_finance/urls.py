@@ -9,6 +9,7 @@ router.register(r"budget", BudgetViewset)
 router.register(r"item", ItemViewset)
 router.register(r"networth", NetWorthViewset)
 router.register(r"accounts", PlaidAccountsViewset)
+router.register(r"transactions", PlaidTransactionViewset)
 router.register(r"account-crypto", CryptoAccountViewSet)
 
 
