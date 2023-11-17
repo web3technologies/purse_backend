@@ -72,21 +72,26 @@ class PlaidAccount(BaseAccount, PlaidUtilityMixin):
             self._handle_api_exception(exception=e, item=self.item)
             raise PlaidApiException(e)
 
-    def get_transactions(self, start_date=None, end_date=None):
-
-        options = TransactionsGetRequestOptions(offset=0, account_ids=[self.plaid_account_id])
-
+    def get_transactions(self, start_date=None, end_date=None, offset=0):
+            
+        all_transactions = []
         try:
-            request = TransactionsGetRequest(
-                    access_token=self.item.access_token,
-                    start_date=start_date if start_date else self._calculate_start_date(),
-                    end_date=self.today if not end_date else end_date,
-                    options=options
-                )
-            response = plaid_client.transactions_get(request)
-            transactions = response['transactions']
-            transaction_data = self._serialize_transaction_data(transactions)
-            return transaction_data
+            while True:
+                options = TransactionsGetRequestOptions(offset=offset, account_ids=[self.plaid_account_id])
+                request = TransactionsGetRequest(
+                        access_token=self.item.access_token,
+                        start_date=start_date if start_date else self._calculate_start_date(),
+                        end_date=self.today if not end_date else end_date,
+                        options=options
+                    )
+                response = plaid_client.transactions_get(request)
+                fetched_transactions = response['transactions']
+                all_transactions.extend(fetched_transactions)
+                
+                if len(fetched_transactions) < 100:
+                    return self._serialize_transaction_data(all_transactions)
+                else:
+                    offset += 100
 
         except PlaidApiException as e:
             self._handle_api_exception(exception=e, item=self.item)
