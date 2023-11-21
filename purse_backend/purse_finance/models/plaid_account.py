@@ -73,8 +73,11 @@ class PlaidAccount(BaseAccount, PlaidUtilityMixin):
             raise PlaidApiException(e)
 
     def get_transactions(self, start_date=None, end_date=None, offset=0):
-            
+        
+        from purse_finance.models.plaid_transaction import PlaidTransaction
+        
         all_transactions = []
+        trans_objects = []
         try:
             while True:
                 options = TransactionsGetRequestOptions(offset=offset, account_ids=[self.plaid_account_id])
@@ -88,7 +91,23 @@ class PlaidAccount(BaseAccount, PlaidUtilityMixin):
                 fetched_transactions = response['transactions']
                 all_transactions.extend(fetched_transactions)
                 
+                trans_objects.extend(
+                    [
+                        PlaidTransaction(
+                                amount=transaction.amount * -1,
+                                transaction_id=transaction.transaction_id,
+                                date=transaction.date,
+                                name=transaction.name,
+                                merchant_name=transaction.merchant_name,
+                                is_pending=transaction.pending,
+                                category_id=transaction.category_id,
+                                plaid_account=self,
+                        ) for transaction in fetched_transactions
+                    ]
+                )
+                
                 if len(fetched_transactions) < 100:
+                    PlaidTransaction.objects.bulk_create(trans_objects, ignore_conflicts=True)
                     return self._serialize_transaction_data(all_transactions)
                 else:
                     offset += 100
