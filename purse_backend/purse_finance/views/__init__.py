@@ -7,8 +7,7 @@ from purse_finance.views.link_token import LinkTokenUpdateView
 from purse_finance.views.networth import NetWorthViewset, NetworthLive
 from purse_finance.views.plaid_accounts import PlaidAccountsViewset
 from purse_finance.views.plaid_transaction import PlaidTransactionViewset
-from purse_finance.views.transactions import TransactionListView, TransactionsByAccountView
-
+from purse_finance.views.transactions import TransactionListView
 
 
 __all__ = [
@@ -23,5 +22,4 @@ __all__ = [
     "NetWorthViewset",
     "NetworthLive",
     "TransactionListView",
-    "TransactionsByAccountView"
 ]
