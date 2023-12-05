@@ -43,7 +43,7 @@ python -m venv /applications/purse_backend/venv
 . "/applications/purse_backend/venv/bin/activate"
 pip install --upgrade pip
 pip install wheel
-pip install $jenkins_proj_path/dist/purse_backend-0.1.3-py3-none-any.whl
+pip install $jenkins_proj_path/dist/purse_backend-0.1.4-py3-none-any.whl
 cp $jenkins_proj_path/manage.py /applications/purse_backend/
 cp $jenkins_proj_path/purse_backend/purse_backend/wsgi.py /applications/purse_backend/
 cp "/var/lib/jenkins/envs/purse_backend_${environment}/.env" /applications/purse_backend/
