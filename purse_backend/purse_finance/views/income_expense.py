@@ -22,6 +22,6 @@ class IncomeExpenseView(APIView):
             total_income=Sum('amount', filter=Q(is_income=True)),
             total_expense=Sum('amount', filter=Q(is_income=False))
         ) \
-        .order_by('month')
+        .order_by('-month')
         
         return Response(data=IncomeExpenseSerializer(iaggregated_data, many=True).data, status=HTTP_200_OK)
