@@ -1,6 +1,7 @@
 from purse_finance.views.budget import BudgetViewset
 from purse_finance.views.crypto_accounts import CryptoAccountViewSet
 from purse_finance.views.dashboard import DashboardView
+from purse_finance.views.income_expense import IncomeExpenseView
 from purse_finance.views.item import ItemViewset
 from purse_finance.views.link_token import LinkTokenView
 from purse_finance.views.link_token import LinkTokenUpdateView
@@ -16,6 +17,7 @@ __all__ = [
     "PlaidAccountsViewset",
     "PlaidTransactionViewset",
     "PlaidTransactionSaveView",
+    "IncomeExpenseView",
     "ItemViewset",
     "CryptoAccountViewSet",
     "LinkTokenView",
