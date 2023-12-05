@@ -19,5 +19,6 @@ class PlaidTransaction(models.Model):
     
     ##internal fields
     date_retrieved = models.DateTimeField(default=timezone.now)
-    is_reviewd = models.BooleanField(default=False)
-    # internal_category = models.ForeignKey()
+    is_saved = models.BooleanField(default=False)
+    is_income = models.BooleanField(null=True, default=None)
+    # internal_category = models.ForeignKey() 

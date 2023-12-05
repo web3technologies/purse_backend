@@ -19,8 +19,9 @@ urlpatterns = [
     path("get-link-token", LinkTokenView.as_view()),
     path("get-link-token-update", LinkTokenUpdateView.as_view()),
     path("networth-live", NetworthLive.as_view()),
-    # Transactions
-    path("transactions", TransactionListView.as_view())
+    # Transactions need to keep gets all for a user
+    path("transactions", TransactionListView.as_view()),
+    path("transactions-save", PlaidTransactionSaveView.as_view())
 ]
 
 urlpatterns += router.urls

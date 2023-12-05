@@ -95,6 +95,7 @@ class PlaidAccount(BaseAccount, PlaidUtilityMixin):
                     [
                         PlaidTransaction(
                                 amount=transaction.amount * -1,
+                                is_income=True if transaction.amount * -1 > 0 else False,
                                 transaction_id=transaction.transaction_id,
                                 date=transaction.date,
                                 name=transaction.name,
