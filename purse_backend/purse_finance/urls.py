@@ -9,6 +9,7 @@ router.register(r"budget", BudgetViewset)
 router.register(r"item", ItemViewset)
 router.register(r"networth", NetWorthViewset)
 router.register(r"accounts", PlaidAccountsViewset)
+router.register(r'accounts/(?P<account_pk>\d+)/transactions', PlaidTransactionViewset)
 router.register(r"account-crypto", CryptoAccountViewSet)
 
 
@@ -18,9 +19,9 @@ urlpatterns = [
     path("get-link-token", LinkTokenView.as_view()),
     path("get-link-token-update", LinkTokenUpdateView.as_view()),
     path("networth-live", NetworthLive.as_view()),
-    # Transactions
+    # Transactions need to keep gets all for a user
     path("transactions", TransactionListView.as_view()),
-    path("transactions/<slug:account_id>", TransactionsByAccountView.as_view())     #account_id is the id of the account not the transaction
+    path("transactions-save", PlaidTransactionSaveView.as_view())
 ]
 
 urlpatterns += router.urls
