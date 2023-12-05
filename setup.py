@@ -36,7 +36,7 @@ tests_require = [
 
 setup(
     name="purse_backend",
-    version="0.1.2",
+    version="0.1.3",
     description="Purse Backend Application",
     author="Web3Technologies LLC",
     author_email="zach@web3technologies.io",
