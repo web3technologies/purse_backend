@@ -21,7 +21,8 @@ urlpatterns = [
     path("networth-live", NetworthLive.as_view()),
     # Transactions need to keep gets all for a user
     path("transactions", TransactionListView.as_view()),
-    path("transactions-save", PlaidTransactionSaveView.as_view())
+    path("transactions-save", PlaidTransactionSaveView.as_view()),
+    path("income-expense", IncomeExpenseView.as_view())
 ]
 
 urlpatterns += router.urls
