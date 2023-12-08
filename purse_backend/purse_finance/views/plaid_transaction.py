@@ -1,8 +1,13 @@
+from rest_framework.decorators import action
 from rest_framework.views import APIView
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.response import Response
 from rest_framework import status
 
+from purse_async.tasks.finance_tasks import (
+    retrieve_plaid_account_transactions_task, 
+    retrieve_plaid_account_transactions_for_user_task
+)
 from purse_finance.models import PlaidTransaction
 from purse_finance.serializers import PlaidTransactionSerializer
 
@@ -12,14 +17,26 @@ class PlaidTransactionViewset(ModelViewSet):
     queryset = PlaidTransaction.objects.all()
     serializer_class = PlaidTransactionSerializer
     
-    
     def get_queryset(self, *args, **kwargs):
-        return super().get_queryset().filter(
-            plaid_account__id=self.kwargs.get("account_pk"),
-            plaid_account__user=self.request.user 
-        ).order_by("-date")
-        
-        
+        qs = super().get_queryset().filter(plaid_account__user=self.request.user)
+        if account_id := self.request.query_params.get("account_id"):
+            qs = qs.filter(plaid_account__id=account_id)
+        return qs.order_by("-date")
+   
+
+    @action(
+        detail=False,
+        methods=["post"],
+        url_path="retrieve-transactions",
+        name="retrieve plaid transactions",
+    )
+    def refresh_plaid_account_balance(self, request, *args, **kwargs):
+        if account_id := self.request.query_params.get("account_id"):
+            task_sig = retrieve_plaid_account_transactions_task.delay(account_id)
+        else:
+            task_sig = retrieve_plaid_account_transactions_for_user_task.delay(self.request.user.id)
+        return Response(data={"detail": task_sig.id}, status=status.HTTP_200_OK)
+    
 
 class PlaidTransactionSaveView(APIView):
 

@@ -21,7 +21,7 @@ class RetrieveCryptoAccountValueForUser(BaseTask):
             user = self.User.objects.get(id=user_id)
             try:
                 for crypto_account in user.cryptoaccount_set.all():
-                    value, last_update = crypto_account.get_value()
+                    value, _ = crypto_account.get_value()
                     self.results[crypto_account.id].append(value)
                 return self.results
             except CryptoAccount.DoesNotExist as e:

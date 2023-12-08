@@ -22,7 +22,7 @@ class RetrievePlaidAccountBalance(BaseTask):
 
                 return {
                     "current_balance": current_balance,
-                    "last_update": last_update
+                    "last_update": str(last_update)
                 }
             except PlaidAccount.DoesNotExist as e:
                 raise e

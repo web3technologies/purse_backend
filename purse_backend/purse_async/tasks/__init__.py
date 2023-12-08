@@ -15,6 +15,8 @@ _finance_tasks = [
     "retrieve_plaid_account_data_for_all_users_task",
     "retrieve_plaid_account_balance_task",
     "retrieve_plaid_account_transactions_task",
+    "retrieve_plaid_account_transactions_for_user_task",
+    "retrieve_all_user_plaid_account_transactions_task",
     "sync_plaid_accounts_task"
 ]
 

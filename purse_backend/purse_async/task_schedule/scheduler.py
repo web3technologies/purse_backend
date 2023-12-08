@@ -20,7 +20,12 @@ def setup_task_scheduler(sender, **kwargs):
         settings.RETRIEVE_PLAID_ACCOUNT_DATA_FOR_ALL_USERS_TASK_ENABLE
     )
     manager.create_scheduled_task(      # GET CRYPTO ACCOUNT DATA FOR ALL CRYPTO ACCOUNTS
-        "retrieve_crypto_account_value_for_all_users_task",
+        "retrieve_all_users_crypto_account_value_task",
         settings.RETRIEVE_CRYPTO_ACCOUNT_VALUE_FOR_ALL_USERS_TASK_INTERVAL,
         settings.RETRIEVE_CRYPTO_ACCOUNT_VALUE_FOR_ALL_USERS_TASK_ENABLE
+    )
+    manager.create_scheduled_task(      # GET CRYPTO ACCOUNT DATA FOR ALL CRYPTO ACCOUNTS
+        "retrieve_all_user_plaid_account_transactions_task",
+        settings.RETRIEVE_ALL_USER_PLAID_ACCOUNT_TRANSACTIONS_TASK_INTERVAL,
+        settings.RETRIEVE_ALL_USER_PLAID_ACCOUNT_TRANSACTIONS_TASK_ENABLE
     )
