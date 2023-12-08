@@ -5,7 +5,8 @@ from purse_finance.calculations import (
     RetrieveCryptoAccountValue, RetrieveCryptoAccountValueForUser,
     RetrievePlaidAccountBalance, RetrievePlaidAccountBalanceForUser,
     RetrievePlaidAccountTransactions, 
-    NetWorthCreator, SyncPlaidAccounts
+    NetWorthCreator, SyncPlaidAccounts, 
+    RetrievePlaidAccountTransactionsForUser
 )
 
 
@@ -23,10 +24,6 @@ def sync_plaid_accounts_task(self, user_id, *args, **kwargs):
 def retrieve_plaid_account_balance_task(self, plaid_account_id, *args, **kwargs):
     return RetrievePlaidAccountBalance().run(plaid_account_id=plaid_account_id)
 
-@shared_task(bind=True, name="retrieve_plaid_account_transactions_task", base=BaseCeleryTask)
-def retrieve_plaid_account_transactions_task(self, plaid_account_id, *args, **kwargs):
-    return RetrievePlaidAccountTransactions().run(plaid_account_id=plaid_account_id)
-
 @shared_task(bind=True, name="retrieve_plaid_account_data_for_user_task", base=BaseCeleryTask)
 def retrieve_plaid_account_data_for_user_task(self, user_id, *args, **kwargs):
     return RetrievePlaidAccountBalanceForUser().run(user_id=user_id)
@@ -42,3 +39,10 @@ def retrieve_crypto_account_value_for_user_task(self, user_id, *args, **kwargs):
     return RetrieveCryptoAccountValueForUser().run(user_id=user_id)
 
 
+@shared_task(bind=True, name="retrieve_plaid_account_transactions_task", base=BaseCeleryTask)
+def retrieve_plaid_account_transactions_task(self, plaid_account_id, *args, **kwargs):
+    return RetrievePlaidAccountTransactions().run(plaid_account_id=plaid_account_id)
+
+@shared_task(bind=True, name="retrieve_plaid_account_transactions_for_user_task", base=BaseCeleryTask)
+def retrieve_plaid_account_transactions_for_user_task(self, user_id, *args, **kwargs):
+    return RetrievePlaidAccountTransactionsForUser().run(user_id=user_id)

@@ -5,3 +5,4 @@ from .retrieve_plaid_account_data_for_user import RetrievePlaidAccountBalanceFor
 from .networth_calculator import NetWorthCreator
 from .sync_accounts import SyncPlaidAccounts
 from .retrieve_plaid_account_transactions import RetrievePlaidAccountTransactions
+from .retrieve_plaid_account_transactions_for_user import RetrievePlaidAccountTransactionsForUser

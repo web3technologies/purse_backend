@@ -20,8 +20,8 @@ def retrieve_plaid_account_data_for_all_users_task(*args, **kwargs):
     return networth_calculations.apply_async()
 
 
-@shared_task(bind=True, name="retrieve_crypto_account_value_task_for_all_users_task", base=BaseCeleryTask)
-def retrieve_crypto_account_value_task_for_all_users_task(*args, **kwargs):
+@shared_task(bind=True, name="retrieve_all_users_crypto_account_value_task", base=BaseCeleryTask)
+def retrieve_all_users_crypto_account_value_task(*args, **kwargs):
 
     networth_calculations = group(
         [
