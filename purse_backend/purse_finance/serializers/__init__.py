@@ -1,5 +1,6 @@
 from purse_finance.serializers.aggregated_accounts import AggregatedAccountSerializer
 from purse_finance.serializers.budget import BudgetSerializer
+from purse_finance.serializers.last_six_month_data import LastSixMonthDataSerializer
 from purse_finance.serializers.item import ItemSerializer, ItemSerializerReduced
 from purse_finance.serializers.income_expense import IncomeExpenseSerializer
 from purse_finance.serializers.plaid_transaction import PlaidTransactionSerializer

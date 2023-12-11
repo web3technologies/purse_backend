@@ -2,6 +2,7 @@ import datetime
 from dateutil.relativedelta import relativedelta
 
 from django.db.models import Case, When, Sum, Value, CharField, DecimalField, ExpressionWrapper
+from django.db.models.functions import TruncMonth
 from django.utils.decorators import method_decorator
 from django.utils import timezone
 
@@ -12,9 +13,9 @@ from rest_framework.status import HTTP_200_OK, HTTP_204_NO_CONTENT
 from rest_framework.views import APIView
 
 from purse_core.cache.cache_user import cache_user_view
-from purse_core.expressions import Round
+from purse_core.expressions import Round, MonthName
 from purse_finance.models import PlaidAccount, PlaidTransaction
-from purse_finance.serializers import AggregatedAccountSerializer, PlaidTransactionSerializer
+from purse_finance.serializers import AggregatedAccountSerializer, LastSixMonthDataSerializer, PlaidTransactionSerializer
 
 
 class DashboardView(APIView):
@@ -24,7 +25,6 @@ class DashboardView(APIView):
 
         today = timezone.now().today().date()
         date_6_months_ago = today - relativedelta(months=6)
-        start_date = datetime.datetime.strptime(f"{date_6_months_ago.year}-{date_6_months_ago.month}-01", '%Y-%m-%d').date()
         
         transactions = list(
             PlaidTransaction.objects.filter(
@@ -34,17 +34,44 @@ class DashboardView(APIView):
 
         monthly_data = []
         budget_this_month = {}
-        income_this_month = 0
-        expense_this_month = 0
-        total_income = 0
-        total_expense = 0
-        largest_expense = 0
         largest_bar_value = 0
-
+        last_six_month_qs = PlaidTransaction.objects.filter(plaid_account__user=self.request.user, date__gte=date_6_months_ago).annotate(
+            month=MonthName("date")).values("month").annotate(
+                income=Sum(
+                    ExpressionWrapper(
+                        Round(
+                            Case(
+                                When(is_income=True, then="amount"),
+                                default=Value(0),
+                                output_field=DecimalField()
+                            ),
+                            2
+                        ),
+                        output_field=DecimalField()
+                    )
+                ),
+                expense=Sum(
+                    ExpressionWrapper(
+                        Round(
+                            Case(
+                                When(is_income=False, then="amount"),
+                                default=Value(0),
+                                output_field=DecimalField()
+                            ),
+                            2
+                        ),
+                        output_field=DecimalField()
+                    )
+                )
+        ).order_by("month")
+        last_six_month_data_serializer = LastSixMonthDataSerializer(last_six_month_qs, many=True)
+        # if last_six_month_data_serializer.is_valid(raise_exception=True):
+        #     last_six_month_data = last_six_month_data_serializer.data
         # initialize the values for checking
         curr_date_name_check = transactions[0].date.strftime("%b")
         current_income_amount = 0
         current_expense_amount = 0
+
 
         for transaction in transactions:
 
@@ -52,28 +79,7 @@ class DashboardView(APIView):
             transaction_date = transaction.date
             main_transaction_category = transaction.category.subcategories.first().label
 
-            # do not include credit card payments in count of income and expense
-            # it will be read as an income item so need to remove
-            # find a solution for this
-            if "AMEX" in transaction.name or "ONLINE PAYMENT - THANK YOU" in transaction.name:
-                continue
-
             current_date_name = transaction_date.strftime("%b")
-
-            # if the transaction date is this year then handle
-            if transaction_date.year == today.year:
-                if current_amount < 0:
-                    total_expense -= current_amount
-                    if transaction_date.month == today.month:
-                        expense_this_month -= current_amount
-
-                    if current_amount * -1 > largest_expense:
-                        largest_expense = current_amount * -1
-                    
-                else:
-                    total_income += current_amount
-                    if transaction_date.month == today.month:
-                        income_this_month += current_amount
 
             if transaction_date.month == today.month:
                 if current_amount < 0:
@@ -129,7 +135,7 @@ class DashboardView(APIView):
             else:
                 budget_return_data["series"].append(item)
 
-        qs = PlaidAccount.objects.filter(user=self.request.user).aggregate(
+        stats_query = PlaidAccount.objects.filter(user=self.request.user).aggregate(
             cash=Sum(ExpressionWrapper(Round(Case(
                 When(account_type="DEPOSITORY", then='current_balance'),
                 default=Value(0),
@@ -146,21 +152,21 @@ class DashboardView(APIView):
                 output_field=DecimalField()
             ),2), output_field=DecimalField()))
         )
-        agg_accounts_serialized = AggregatedAccountSerializer(data=qs)
-        if agg_accounts_serialized.is_valid(raise_exception=True):
-            d = agg_accounts_serialized.data
+        stats_serializer = AggregatedAccountSerializer(data=stats_query)
+        if stats_serializer.is_valid(raise_exception=True):
+            stats_data = stats_serializer.data
         
         data = {
             "stats":{
-                "cash": d.get("cash"),
-                "assets": d.get("assets"),
-                "debt": d.get("debt"),
+                "cash": stats_data.get("cash"),
+                "assets": stats_data.get("assets"),
+                "debt": stats_data.get("debt"),
                 "unsaved_transactions": PlaidTransaction.objects.filter(plaid_account__user=self.request.user, is_saved=False).count()
             },
             "monthly_data": monthly_data,
             "budget_this_month": budget_return_data,
-            "income_this_month": income_this_month,
-            "expense_this_month": expense_this_month,
+            "income_this_month": PlaidTransaction.objects.filter(date__year=today.year, date__month=today.month, is_income=True, plaid_account__user=self.request.user).aggregate(amount=Sum("amount")).get("amount", 0),
+            "expense_this_month": PlaidTransaction.objects.filter(date__year=today.year, date__month=today.month, is_income=False, plaid_account__user=self.request.user).aggregate(amount=Sum("amount")).get("amount", 0),
             "recent_transactions": PlaidTransactionSerializer(transactions[0:5], many=True).data,
             "largest_bar_value": largest_bar_value
         }
