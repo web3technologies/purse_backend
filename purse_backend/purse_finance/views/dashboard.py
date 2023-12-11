@@ -1,6 +1,7 @@
 import datetime
 from dateutil.relativedelta import relativedelta
 
+from django.db.models import Case, When, Sum, Value, CharField, DecimalField, ExpressionWrapper
 from django.utils.decorators import method_decorator
 from django.utils import timezone
 
@@ -10,14 +11,15 @@ from rest_framework.response import Response
 from rest_framework.status import HTTP_200_OK, HTTP_204_NO_CONTENT
 from rest_framework.views import APIView
 
-
-
 from purse_core.cache.cache_user import cache_user_view
+from purse_core.expressions import Round
+from purse_finance.models import PlaidAccount
+from purse_finance.serializers import AggregatedAccountSerializer
 
 
 class DashboardView(APIView):
 
-    @method_decorator(cache_user_view())
+    # @method_decorator(cache_user_view())
     def get(self, request, *args, **kwargs):
 
         today = timezone.now().today().date()
@@ -136,12 +138,33 @@ class DashboardView(APIView):
             else:
                 budget_return_data["series"].append(item)
 
+        qs = PlaidAccount.objects.filter(user=self.request.user).aggregate(
+            cash=Sum(ExpressionWrapper(Round(Case(
+                When(account_type="DEPOSITORY", then='current_balance'),
+                default=Value(0),
+                output_field=DecimalField()
+            ),2), output_field=DecimalField())),
+            assets=Sum(ExpressionWrapper(Round(Case(
+                When(account_type="INVESTMENT", then="current_balance"),
+                default=Value(0),
+                output_field=DecimalField()
+            ),2), output_field=DecimalField())),
+            debt=Sum(ExpressionWrapper(Round(Case(
+                When(account_type__in=["CREDIT", "LOAN"], then="current_balance"),
+                default=Value(0),
+                output_field=DecimalField()
+            ),2), output_field=DecimalField()))
+        )
+        agg_accounts_serialized = AggregatedAccountSerializer(data=qs)
+        if agg_accounts_serialized.is_valid(raise_exception=True):
+            d = agg_accounts_serialized.data
+        
         data = {
             "yearly":{
-                "income": total_income,
-                "expense": total_expense,
-                "largest_expense": largest_expense,
-                "total_transactions": len(transactions)
+                "income": total_income, # cash 
+                "expense": total_expense,   # assets
+                "largest_expense": largest_expense,         # debt
+                "total_transactions": len(transactions) # unsaved transactions
             },
             "monthly_data":monthly_data,
             "budget_this_month": budget_return_data,
