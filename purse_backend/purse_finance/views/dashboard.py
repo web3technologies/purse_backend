@@ -26,20 +26,11 @@ class DashboardView(APIView):
         date_6_months_ago = today - relativedelta(months=6)
         start_date = datetime.datetime.strptime(f"{date_6_months_ago.year}-{date_6_months_ago.month}-01", '%Y-%m-%d').date()
         
-        transactions = []
-        for item in self.request.user.item_set.all():
-
-            try:
-                transaction_data = item.get_transactions(start_date=start_date)
-            except PlaidApiException:
-                transaction_data = []
-
-            transactions.extend(transaction_data)
-
-        if not transactions:
-            return Response(status=HTTP_204_NO_CONTENT)
-
-        transactions.sort(key=lambda x: x["date"], reverse=True)
+        transactions = list(
+            PlaidTransaction.objects.filter(
+                plaid_account__user=self.request.user, 
+                date__gte=date_6_months_ago).order_by("date").values()
+        )
 
         monthly_data = []
         budget_this_month = {}

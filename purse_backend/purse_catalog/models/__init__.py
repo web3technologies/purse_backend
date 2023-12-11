@@ -1,1 +1,3 @@
 from .plaid_api_error import PlaidApiError
+from .plaid_transaction_sub_category import PlaidTransactionSubCategory
+from .plaid_transaction_category import PlaidTransactionCategory
