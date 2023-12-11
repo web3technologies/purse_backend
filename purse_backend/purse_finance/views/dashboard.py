@@ -14,7 +14,7 @@ from rest_framework.views import APIView
 from purse_core.cache.cache_user import cache_user_view
 from purse_core.expressions import Round
 from purse_finance.models import PlaidAccount, PlaidTransaction
-from purse_finance.serializers import AggregatedAccountSerializer
+from purse_finance.serializers import AggregatedAccountSerializer, PlaidTransactionSerializer
 
 
 class DashboardView(APIView):
@@ -29,7 +29,7 @@ class DashboardView(APIView):
         transactions = list(
             PlaidTransaction.objects.filter(
                 plaid_account__user=self.request.user, 
-                date__gte=date_6_months_ago).order_by("date").values()
+                date__gte=date_6_months_ago).order_by("date")
         )
 
         monthly_data = []
@@ -42,20 +42,20 @@ class DashboardView(APIView):
         largest_bar_value = 0
 
         # initialize the values for checking
-        curr_date_name_check = transactions[0].get("date").strftime("%b")
+        curr_date_name_check = transactions[0].date.strftime("%b")
         current_income_amount = 0
         current_expense_amount = 0
 
         for transaction in transactions:
 
-            current_amount = transaction.get("amount")
-            transaction_date = transaction.get("date")
-            main_transaction_category = transaction.get("category")[0]
+            current_amount = transaction.amount
+            transaction_date = transaction.date
+            main_transaction_category = transaction.category.subcategories.first().label
 
             # do not include credit card payments in count of income and expense
             # it will be read as an income item so need to remove
             # find a solution for this
-            if "AMEX" in transaction.get("name") or "ONLINE PAYMENT - THANK YOU" in transaction.get("name"):
+            if "AMEX" in transaction.name or "ONLINE PAYMENT - THANK YOU" in transaction.name:
                 continue
 
             current_date_name = transaction_date.strftime("%b")
@@ -157,11 +157,11 @@ class DashboardView(APIView):
                 "debt": d.get("debt"),
                 "unsaved_transactions": PlaidTransaction.objects.filter(plaid_account__user=self.request.user, is_saved=False).count()
             },
-            "monthly_data":monthly_data,
+            "monthly_data": monthly_data,
             "budget_this_month": budget_return_data,
             "income_this_month": income_this_month,
             "expense_this_month": expense_this_month,
-            "recent_transactions":transactions[0:5],
+            "recent_transactions": PlaidTransactionSerializer(transactions[0:5], many=True).data,
             "largest_bar_value": largest_bar_value
         }
 
