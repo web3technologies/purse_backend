@@ -13,7 +13,7 @@ from rest_framework.views import APIView
 
 from purse_core.cache.cache_user import cache_user_view
 from purse_core.expressions import Round
-from purse_finance.models import PlaidAccount
+from purse_finance.models import PlaidAccount, PlaidTransaction
 from purse_finance.serializers import AggregatedAccountSerializer
 
 
@@ -160,11 +160,11 @@ class DashboardView(APIView):
             d = agg_accounts_serialized.data
         
         data = {
-            "yearly":{
-                "income": total_income, # cash 
-                "expense": total_expense,   # assets
-                "largest_expense": largest_expense,         # debt
-                "total_transactions": len(transactions) # unsaved transactions
+            "stats":{
+                "cash": d.get("cash"),
+                "assets": d.get("assets"),
+                "debt": d.get("debt"),
+                "unsaved_transactions": PlaidTransaction.objects.filter(plaid_account__user=self.request.user, is_saved=False).count()
             },
             "monthly_data":monthly_data,
             "budget_this_month": budget_return_data,
