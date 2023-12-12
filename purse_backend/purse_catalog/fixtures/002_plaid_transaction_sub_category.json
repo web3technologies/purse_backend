@@ -1,0 +1,3416 @@
+[
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Bank Fees"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Overdraft"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "ATM"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Late Payment"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Fraud Dispute"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Foreign Transaction"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Wire Transfer"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Insufficient Funds"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Cash Advance"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Excess Activity"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Community"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Animal Shelter"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Assisted Living Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Facilities and Nursing Homes"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Caretakers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Cemetery"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Courts"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Day Care and Preschools"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Disabled Persons Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Drug and Alcohol Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Education"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Vocational Schools"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Tutoring and Educational Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Primary and Secondary Schools"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Fraternities and Sororities"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Driving Schools"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Dance Schools"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Culinary Lessons and Schools"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Computer Training"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Colleges and Universities"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Art School"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Adult Education"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Government Departments and Agencies"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Government Lobbyists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Housing Assistance and Shelters"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Law Enforcement"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Police Stations"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Fire Stations"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Correctional Institutions"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Libraries"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Military"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Organizations and Associations"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Youth Organizations"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Environmental"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Charities and Non-Profits"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Post Offices"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Public and Social Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Religious"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Temple"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Synagogues"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Mosques"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Churches"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Senior Citizen Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Retirement"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Food and Drink"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Bar"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Wine Bar"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Sports Bar"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Hotel Lounge"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Breweries"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Internet Cafes"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Nightlife"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Strip Club"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Night Clubs"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Karaoke"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Jazz and Blues Cafe"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Hookah Lounges"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Adult Entertainment"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Restaurants"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Winery"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Vegan and Vegetarian"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Turkish"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Thai"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Swiss"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Sushi"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Steakhouses"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Spanish"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Seafood"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Scandinavian"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Portuguese"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Pizza"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Moroccan"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Middle Eastern"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Mexican"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Mediterranean"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Latin American"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Korean"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Juice Bar"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Japanese"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Italian"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Indonesian"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Indian"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Ice Cream"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Greek"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "German"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Gastropub"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "French"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Food Truck"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Fish and Chips"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Filipino"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Fast Food"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Falafel"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Ethiopian"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Eastern European"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Donuts"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Distillery"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Diners"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Dessert"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Delis"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Cupcake Shop"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Cuban"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Coffee Shop"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Chinese"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Caribbean"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Cajun"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Cafe"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Burrito"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Burgers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Breakfast Spot"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Brazilian"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Barbecue"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Bakery"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Bagel Shop"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Australian"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Asian"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "American"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "African"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Afghan"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Healthcare"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Healthcare Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Psychologists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Pregnancy and Sexual Health"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Podiatrists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Physical Therapy"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Optometrists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Nutritionists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Nurses"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Mental Health"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Medical Supplies and Labs"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Hospitals, Clinics and Medical Centers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Emergency Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Dentists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Counseling and Therapy"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Chiropractors"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Blood Banks and Centers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Alternative Medicine"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Acupuncture"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Physicians"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Urologists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Respiratory"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Radiologists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Psychiatrists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Plastic Surgeons"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Pediatricians"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Pathologists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Orthopedic Surgeons"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Ophthalmologists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Oncologists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Obstetricians and Gynecologists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Neurologists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Internal Medicine"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "General Surgery"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Gastroenterologists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Family Medicine"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Ear, Nose and Throat"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Dermatologists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Cardiologists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Anesthesiologists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Interest"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Interest Earned"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Interest Charged"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Payment"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Credit Card"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Rent"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Loan"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Recreation"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Arts and Entertainment"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Theatrical Productions"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Symphony and Opera"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Sports Venues"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Social Clubs"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Psychics and Astrologers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Party Centers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Music and Show Venues"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Museums"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Movie Theatres"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Fairgrounds and Rodeos"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Entertainment"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Dance Halls and Saloons"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Circuses and Carnivals"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Casinos and Gaming"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Bowling"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Billiards and Pool"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Art Dealers and Galleries"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Arcades and Amusement Parks"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Aquarium"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Athletic Fields"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Baseball"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Basketball"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Batting Cages"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Boating"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Campgrounds and RV Parks"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Canoes and Kayaks"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Combat Sports"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Cycling"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Dance"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Equestrian"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Football"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Go Carts"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Golf"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Gun Ranges"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Gymnastics"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Gyms and Fitness Centers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Hiking"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Hockey"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Hot Air Balloons"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Hunting and Fishing"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Landmarks"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Monuments and Memorials"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Historic Sites"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Gardens"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Buildings and Structures"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Miniature Golf"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Outdoors"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Rivers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Mountains"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Lakes"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Forests"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Beaches"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Paintball"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Parks"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Playgrounds"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Picnic Areas"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Natural Parks"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Personal Trainers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Race Tracks"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Racquet Sports"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Racquetball"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Rafting"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Recreation Centers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Rock Climbing"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Running"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Scuba Diving"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Skating"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Skydiving"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Snow Sports"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Soccer"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Sports and Recreation Camps"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Sports Clubs"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Stadiums and Arenas"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Swimming"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Tennis"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Water Sports"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Yoga and Pilates"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Zoo"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Service"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Advertising and Marketing"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Writing, Copywriting and Technical Writing"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Search Engine Marketing and Optimization"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Public Relations"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Promotional Items"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Print, TV, Radio and Outdoor Advertising"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Online Advertising"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Market Research and Consulting"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Direct Mail and Email Marketing Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Creative Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Advertising Agencies and Media Buyers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Art Restoration"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Audiovisual"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Automation and Control Systems"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Automotive"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Towing"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Motorcycle, Moped and Scooter Repair"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Maintenance and Repair"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Car Wash and Detail"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Car Appraisers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Auto Transmission"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Auto Tires"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Auto Smog Check"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Auto Oil and Lube"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Business and Strategy Consulting"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Business Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Printing and Publishing"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Cable"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Chemicals and Gasses"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Cleaning"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Computers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Software Development"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Construction"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Specialty"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Roofers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Painting"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Masonry"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Infrastructure"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Heating, Ventilating and Air Conditioning"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Electricians"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Contractors"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Carpet and Flooring"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Carpenters"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Credit Counseling and Bankruptcy Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Dating and Escort"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Employment Agencies"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Engineering"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Media"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Events and Event Planning"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Financial"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Taxes"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Student Aid and Grants"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Stock Brokers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Loans and Mortgages"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Holding and Investment Offices"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Fund Raising"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Financial Planning and Investments"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Credit Reporting"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Collections"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Check Cashing"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Business Brokers and Franchises"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Banking and Finance"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "ATMs"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Accounting and Bookkeeping"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Food and Beverage"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Distribution"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Catering"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Funeral Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Geological"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Home Improvement"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Upholstery"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Tree Service"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Swimming Pool Maintenance and Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Storage"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Pools and Spas"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Plumbing"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Pest Control"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Movers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Mobile Homes"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Lighting Fixtures"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Landscaping and Gardeners"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Kitchens"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Interior Design"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Housewares"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Home Inspection Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Home Appliances"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Heating, Ventilation and Air Conditioning"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Hardware and Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Fences, Fireplaces and Garage Doors"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Doors and Windows"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Architects"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Household"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Human Resources"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Immigration"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Import and Export"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Industrial Machinery and Vehicles"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Insurance"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Internet Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Leather"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Legal"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Logging and Sawmills"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Machine Shops"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Management"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Manufacturing"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Apparel and Fabric Products"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Computers and Office Machines"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Electrical Equipment and Components"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Furniture and Fixtures"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Glass Products"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Industrial Machinery and Equipment"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Leather Goods"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Metal Products"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Nonmetallic Mineral Products"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Paper Products"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Petroleum"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Plastic Products"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Rubber Products"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Service Instruments"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Textiles"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Tobacco"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Transportation Equipment"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Wood Products"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Media Production"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Metals"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Mining"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Coal"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Metal"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Non-Metallic Minerals"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "News Reporting"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Oil and Gas"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Packaging"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Paper"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Personal Care"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Tattooing"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Tanning Salons"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Spas"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Skin Care"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Piercing"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Massage Clinics and Therapists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Manicures and Pedicures"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Laundry and Garment Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Hair Salons and Barbers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Hair Removal"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Photography"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Plastics"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Rail"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Real Estate"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Real Estate Development and Title Companies"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Real Estate Appraiser"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Real Estate Agents"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Property Management"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Corporate Housing"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Commercial Real Estate"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Building and Land Surveyors"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Boarding Houses"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Apartments, Condos and Houses"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Refrigeration and Ice"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Renewable Energy"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Repair Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Research"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Rubber"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Scientific"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Security and Safety"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Shipping and Freight"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Subscription"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Tailors"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Telecommunication Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Tourist Information and Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Transportation"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Travel Agents and Tour Operators"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Utilities"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Water"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Sanitary and Waste Management"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Heating, Ventilating, and Air Conditioning"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Gas"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Electric"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Veterinarians"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Water and Waste Management"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Web Design and Development"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Welding"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Agriculture and Forestry"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Crop Production"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Forestry"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Livestock and Animals"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Art and Graphic Design"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Shops"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Adult"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Antiques"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Arts and Crafts"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Auctions"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Used Car Dealers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Salvage Yards"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "RVs and Motor Homes"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Motorcycles, Mopeds and Scooters"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Classic and Antique Car"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Car Parts and Accessories"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Car Dealers and Leasing"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Beauty Products"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Bicycles"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Boat Dealers"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Bookstores"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Cards and Stationery"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Children"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Clothing and Accessories"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Women's Store"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Swimwear"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Shoe Store"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Men's Store"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Lingerie Store"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Kids' Store"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Boutique"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Accessories Store"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Computers and Electronics"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Video Games"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Mobile Phones"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Cameras"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Construction Supplies"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Convenience Stores"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Costumes"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Dance and Music"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Department Stores"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Digital Purchase"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Discount Stores"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Electrical Equipment"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Equipment Rental"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Flea Markets"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Florists"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Food and Beverage Store"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Health Food"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Farmers Markets"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Beer, Wine and Spirits"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Fuel Dealer"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Furniture and Home Decor"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Gift and Novelty"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Glasses and Optometrist"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Hardware Store"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Hobby and Collectibles"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Industrial Supplies"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Jewelry and Watches"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Luggage"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Marine Supplies"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Music, Video and DVD"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Musical Instruments"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Newsstands"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Office Supplies"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Outlet"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Pawn Shops"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Pets"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Pharmacies"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Photos and Frames"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Shopping Centers and Malls"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Sporting Goods"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Supermarkets and Groceries"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Toys"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Vintage and Thrift"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Warehouses and Wholesale Stores"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Wedding and Bridal"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Wholesale"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Lawn and Garden"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Tax"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Refund"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Transfer"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Internal Account Transfer"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "ACH"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Billpay"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Check"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Credit"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Debit"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Deposit"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Keep the Change Savings Program"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Payroll"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Benefits"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Third Party"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Venmo"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Square Cash"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Square"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "PayPal"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Dwolla"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Coinbase"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Chase QuickPay"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Acorns"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Digit"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Betterment"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Plaid"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Wire"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Withdrawal"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Save As You Go"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Travel"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Airlines and Aviation Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Airports"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Boat"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Bus Stations"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Car and Truck Rentals"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Car Service"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Ride Share"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Charter Buses"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Cruises"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Gas Stations"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Heliports"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Limos and Chauffeurs"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Lodging"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Resorts"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Lodges and Vacation Rentals"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Hotels and Motels"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Hostels"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Cottages and Cabins"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Bed and Breakfasts"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Parking"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Public Transportation Services"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Taxi"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Tolls and Fees"
+        }
+    },
+    {
+        "model": "purse_catalog.plaidtransactionsubcategory",
+        "fields": {
+            "label": "Transportation Centers"
+        }
+    }
+]

@@ -10,6 +10,7 @@ from plaid.model.transactions_get_request_options import TransactionsGetRequestO
 from purse_core.client import plaid_client
 from purse_core.models import BaseAccount
 from purse_core.settings.choices import PLAID_ACCOUNT_TYPE_CHOICES, PLAID_ACCOUNT_STATUS_CHOICES
+from purse_catalog.models import PlaidTransactionCategory
 from purse_finance.mixins.plaid_exception import PlaidUtilityMixin
 from purse_finance.models import Item
 
@@ -101,7 +102,7 @@ class PlaidAccount(BaseAccount, PlaidUtilityMixin):
                                 name=transaction.name,
                                 merchant_name=transaction.merchant_name,
                                 is_pending=transaction.pending,
-                                category_id=transaction.category_id,
+                                category=PlaidTransactionCategory.objects.get(plaid_category_id=transaction.category_id),
                                 plaid_account=self,
                         ) for transaction in fetched_transactions
                     ]
