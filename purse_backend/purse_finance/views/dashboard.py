@@ -1,4 +1,3 @@
-import datetime
 from dateutil.relativedelta import relativedelta
 
 from django.db.models import Case, When, Sum, Value, DecimalField, ExpressionWrapper
@@ -6,15 +5,13 @@ from django.db.models.functions import Abs
 from django.utils.decorators import method_decorator
 from django.utils import timezone
 
-from plaid.exceptions import ApiException as PlaidApiException
-
 from rest_framework.response import Response
-from rest_framework.status import HTTP_200_OK, HTTP_204_NO_CONTENT
+from rest_framework.status import HTTP_200_OK
 from rest_framework.views import APIView
 
 from purse_core.cache.cache_user import cache_user_view
 from purse_core.expressions import Round, MonthName
-from purse_finance.models import PlaidAccount, PlaidTransaction
+from purse_finance.models import CryptoAccount, PlaidAccount, PlaidTransaction
 from purse_finance.serializers import AggregatedAccountSerializer, LastSixMonthDataSerializer, PlaidTransactionSerializer
 
 
@@ -42,10 +39,11 @@ class DashboardView(APIView):
         stats_serializer = AggregatedAccountSerializer(data=stats_query)
         if stats_serializer.is_valid(raise_exception=True):
             stats_data = stats_serializer.data
+            crypto_value = round(CryptoAccount.objects.filter(user=request.user).aggregate(value=Sum("value")).get("value", 0),2)
 
         return {
                 "cash": stats_data.get("cash"),
-                "assets": stats_data.get("assets"),
+                "assets": float(stats_data.get("assets")) + crypto_value,
                 "debt": stats_data.get("debt"),
                 "unsaved_transactions": PlaidTransaction.objects.filter(plaid_account__user=self.request.user, is_saved=False).count()
             }
@@ -135,7 +133,7 @@ class DashboardView(APIView):
             "budget_this_month": self.__get_budget_data(transactions, today),
             "income_this_month": PlaidTransaction.objects.filter(date__year=today.year, date__month=today.month, is_income=True, plaid_account__user=self.request.user).aggregate(amount=Sum("amount")).get("amount", 0),
             "expense_this_month": PlaidTransaction.objects.filter(date__year=today.year, date__month=today.month, is_income=False, plaid_account__user=self.request.user).aggregate(amount=Sum("amount")).get("amount", 0),
-            "recent_transactions": PlaidTransactionSerializer(transactions[0:5], many=True).data,
+            "recent_transactions": PlaidTransactionSerializer(transactions[0:5], many=True).data if transactions else [],
         }
 
 
