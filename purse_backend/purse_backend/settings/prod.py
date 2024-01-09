@@ -7,7 +7,7 @@ DEBUG = False
 ALLOWED_HOSTS = ["*"]
 
 CORS_ORIGIN_WHITELIST = [
-    "https://app.purse.health"
+    "https://app.ideajet.ai"
 ]
 
 
