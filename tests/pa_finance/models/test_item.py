@@ -6,7 +6,7 @@ from django.conf import settings
 
 from plaid.exceptions import ApiException as PlaidApiException
 
-from purse_refs.models import PlaidApiError
+from purse_catalog.models import PlaidApiError
 
 
 @pytest.mark.django_db

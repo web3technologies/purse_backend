@@ -4,7 +4,7 @@ import pytest
 from django.utils import timezone
 
 from purse_finance.models import Item, PlaidAccount, CryptoAccount
-from purse_refs.models import PlaidApiError
+from purse_catalog.models import PlaidApiError
 
 
 @pytest.fixture(scope="function")
